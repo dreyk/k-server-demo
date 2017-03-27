@@ -1,0 +1,10 @@
+Name: k-demo-server
+Component: demo-server
+Replicas: 1
+CpuRequests: "25m"
+MemoryRequests: "64Mi"
+CpuLimits: "100m"
+MemoryLimits: "64Mi"
+Image:
+  Name: dreyk/k-server-demo
+  Tag: latest
