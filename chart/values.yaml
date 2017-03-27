@@ -6,5 +6,5 @@ MemoryRequests: "64Mi"
 CpuLimits: "100m"
 MemoryLimits: "64Mi"
 Image:
-  Name: dreyk/k-server-demo
+  Name: agunin/k-server-demo
   Tag: latest
